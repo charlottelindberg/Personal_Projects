@@ -11,6 +11,23 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>The Adventures of Åke & Nibs</title>
+
+    <!-- Style for the Find-a-bunny Form -->
+    <style type="text/css">
+        form.demoForm {
+            margin: 2em 0 3em;
+        }
+
+        form.demoForm select {
+            vertical-align: top;
+            margin-right: 1em;
+            min-width: 300px;
+        }
+
+        select#choices {
+            min-width: 300px;
+        }
+    </style>
 </head>
 
 <body>
@@ -118,42 +135,42 @@
 
     <div class="jumbotron p-md-5 text-black rounded bg-medium">
         <p class="lead text-black text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="font-italic">Good food for bunnies:</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae velit saepe ipsa assumenda, cum
-                            nemo
-                            accusamus beatae praesentium sunt doloremque odit ipsum harum minima vel asperiores impedit
-                            voluptas? Voluptas, aliquam?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro impedit laborum ipsam
-                            exercitationem.
-                            Eum aperiam impedit perspiciatis ducimus nesciunt recusandae obcaecati atque, enim quis
-                            quibusdam?</p>
-                    </div>
-                    <div class="col-md-6">
-                        <h2 class="font-italic">Give in moderation:</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum incidunt illum temporibus
-                            obcaecati,
-                            adipisci consequuntur odit dicta molestias. Distinctio unde sint voluptates natus hic
-                            aperiam velit
-                            voluptate, deleniti temporibus minima?</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam explicabo hic laudantium
-                            vel ex
-                            voluptatum impedit molestiae id quia voluptas, eius velit natus at, beatae voluptates
-                            possimus
-                            officiis error dolor.</p>
-                    </div>
-                </div>
-        </p>
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
-
+                <div class="col-md-6">
+                    <h2 class="font-italic">Good food for bunnies:</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae velit saepe ipsa assumenda, cum
+                        nemo
+                        accusamus beatae praesentium sunt doloremque odit ipsum harum minima vel asperiores impedit
+                        voluptas? Voluptas, aliquam?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro impedit laborum ipsam
+                        exercitationem.
+                        Eum aperiam impedit perspiciatis ducimus nesciunt recusandae obcaecati atque, enim quis
+                        quibusdam?</p>
                 </div>
                 <div class="col-md-6">
-                    <h2 class="font-italic text-center">Food you'd best avoid:</h2>
-                    <p>
+                    <h2 class="font-italic">Give in moderation:</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum incidunt illum temporibus
+                        obcaecati,
+                        adipisci consequuntur odit dicta molestias. Distinctio unde sint voluptates natus hic
+                        aperiam velit
+                        voluptate, deleniti temporibus minima?</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam explicabo hic laudantium
+                        vel ex
+                        voluptatum impedit molestiae id quia voluptas, eius velit natus at, beatae voluptates
+                        possimus
+                        officiis error dolor.</p>
+                </div>
+            </div>
+            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="font-italic text-center">Food you'd best avoid:</h2>
+                        <p>
                         <dl class="row">
                             <dt class="col-sm-3">Carrots</dt>
                             <dd class="col-sm-9">Contains too much sugar, and may cause diabetes.</dd>
@@ -163,116 +180,313 @@
                             <dd class="col-sm-9">Builds up gas in the intestines.</dd>
                             <dt class="col-sm-3">Carrots</dt>
                             <dd class="col-sm-9">Contains too much sugar, and may cause diabetes.</dd>
-                    </p>
-                </div>
-                <div class="col-md-3">
+                            </p>
+                    </div>
+                    <div class="col-md-3">
 
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
     <div class="jumbotron p-md-5 text-black rounded bg-white">
         <h2 class="font-italic text-center">Find a partner for your special bunny!</h2>
         <p class="lead text">
-            <p>
-                Bunnies are by nature very social animals. In the wild they live in large warrens with several
-                generations, taking care of each other. The need for company does not change for bunnies in captivity.
-                To prevent your bunny from becoming depressed (and effectivly shortening their lifespan by several years
-                - yes a bunny can die from loneliness and depression), we will help you and your special little bunny to
-                find a friend to share their lives with.
-            </p>
-            <p>
-                Fill in the questionnaire form below, to see which type of bunny you best match up with!
-            </p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4" id="firstSelection">
-                        <p class="font-weight-bold">
-                            What size of bunny are you looking for?
-                        </p>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="SizeBunny" id="LargeBunny1"
-                                value="LargeBunny2" checked>
-                            <label class="form-check-label" for="LargeBunny1">
-                                Large
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="SizeBunny" id="MediumBunny1"
-                                value="MediumBunny2">
-                            <label class="form-check-label" for="MediumBunny1">
-                                Medium
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="SizeBunny" id="SmallBunny1"
-                                value="SmallBunny2">
-                            <label class="form-check-label" for="SmallBunny1">
-                                Small
-                            </label>
-                        </div>
+        <p>
+            Bunnies are by nature very social animals. In the wild they live in large warrens with several
+            generations, taking care of each other. The need for company does not change for bunnies in captivity.
+            To prevent your bunny from becoming depressed (and effectivly shortening their lifespan by several years
+            - yes a bunny can die from loneliness and depression), we will help you and your special little bunny to
+            find a friend to share their lives with.
+        </p>
+        <p>
+            Choose the desired size and race from the selection below, and you'll instantly see which bunnies are
+            available to you. Once you hit the "Submit"-button, you'll be redirected to a new page with further
+            information.
+        </p>
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-md-4" id="firstSelection">
+                    <p class="font-weight-bold">
+                        What size of bunny are you looking for?
+                    </p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SizeBunny" id="LargeBunny1"
+                            value="LargeBunny2" checked>
+                        <label class="form-check-label" for="LargeBunny1">
+                            Large
+                        </label>
                     </div>
-
-
-                    <div class="col-md-4" id="secondSelection">
-                        <p class=" font-weight-bold">
-                            What type of bunny are you looking for?
-                        </p>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="FlemishGiant" id="FlemishGiant1"
-                                value="FlemishGiant2" checked>
-                            <label class="form-check-label" for="FlemishGiant1">
-                                Flemish Giant
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="FrenchLop" id="FrenchLop1"
-                                value="FrenchLop2">
-                            <label class="form-check-label" for="FrenchLop1">
-                                French Lop
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="NetherlandDwarf" id="NetherlandDwarf1"
-                                value="NetherlandDwarf2">
-                            <label class="form-check-label" for="NetherlandDwarf1">
-                                Netherland Dwarf
-                            </label>
-                        </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SizeBunny" id="MediumBunny1"
+                            value="MediumBunny2">
+                        <label class="form-check-label" for="MediumBunny1">
+                            Medium
+                        </label>
                     </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="SizeBunny" id="SmallBunny1"
+                            value="SmallBunny2">
+                        <label class="form-check-label" for="SmallBunny1">
+                            Small
+                        </label>
+                    </div>
+                </div>
 
-                    <div class="col-md-4" id="thirdSelection">
-                        <p class=" font-weight-bold">
-                            Available bunnies for you!
-                        </p>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="CocoaPuff" id="CocoaPuff1"
-                                value="CocoaPuff2" checked>
-                            <label class="form-check-label" for="CocoaPuff1">
-                                Cocoa Puff
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="Blancobun" id="Blancobun1"
-                                value="Blancobun2">
-                            <label class="form-check-label" for="Blancobun1">
-                                Blancobun
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="Cooper" id="Cooper1" value="Cooper2">
-                            <label class="form-check-label" for="Cooper1">
-                                Cooper the Pooper
-                            </label>
-                        </div>
+
+                <div class="col-md-4" id="secondSelection">
+                    <p class=" font-weight-bold">
+                        What type of bunny are you looking for?
+                    </p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="FlemishGiant" id="FlemishGiant1"
+                            value="FlemishGiant2" checked>
+                        <label class="form-check-label" for="FlemishGiant1">
+                            Flemish Giant
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="FrenchLop" id="FrenchLop1"
+                            value="FrenchLop2">
+                        <label class="form-check-label" for="FrenchLop1">
+                            French Lop
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="NetherlandDwarf" id="NetherlandDwarf1"
+                            value="NetherlandDwarf2">
+                        <label class="form-check-label" for="NetherlandDwarf1">
+                            Netherland Dwarf
+                        </label>
+                    </div>
+                </div>
+
+                <div class="col-md-4" id="thirdSelection">
+                    <p class=" font-weight-bold">
+                        Available bunnies for you!
+                    </p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="CocoaPuff" id="CocoaPuff1" value="CocoaPuff2"
+                            checked>
+                        <label class="form-check-label" for="CocoaPuff1">
+                            Cocoa Puff
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Blancobun" id="Blancobun1"
+                            value="Blancobun2">
+                        <label class="form-check-label" for="Blancobun1">
+                            Blancobun
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Cooper" id="Cooper1" value="Cooper2">
+                        <label class="form-check-label" for="Cooper1">
+                            Cooper the Pooper
+                        </label>
                     </div>
                 </div>
             </div>
+        </div> -->
+
+        <!-- Testing JavaScript; dynamic form selection -->
+
+        <div class="lead text-black text-center">
+            <h3 class="font-weight-bold p-3 mb-2 bg-dark text-white">Find-A-Bunny</h3>
+
+            <!-- Result.php is the outcome when clicking submit -->
+            <form action="result.php" method="post" id="demoForm" class="demoForm">
+
+                <!-- First selection tab -->
+                <select name="category" size="3" width="50%">
+                    <option value="js">Large Bunnies</option>
+                    <option value="php">Medium Bunnies</option>
+                    <option value="tuts">Small Bunnies</option>
+                </select>
+
+                <!-- Second selection tab -->
+                <select name="choices[]" id="choices" multiple="multiple" size="3">
+                </select>
+
+                <!-- Submit button -->
+                <p>
+                <p></p><input type="submit" value="Submit" class="btn btn-outline-success btn-lg" /></p>
+
+            </form>
+
+
+            <script type="text/javascript">
+
+                // removes all option elements in select list 
+                // removeGrp (optional) boolean to remove optgroups
+                function removeAllOptions(sel, removeGrp) {
+                    var len, groups, par;
+                    if (removeGrp) {
+                        groups = sel.getElementsByTagName('optgroup');
+                        len = groups.length;
+                        for (var i = len; i; i--) {
+                            sel.removeChild(groups[i - 1]);
+                        }
+                    }
+
+                    len = sel.options.length;
+                    for (var i = len; i; i--) {
+                        par = sel.options[i - 1].parentNode;
+                        par.removeChild(sel.options[i - 1]);
+                    }
+                }
+
+                function appendDataToSelect(sel, obj) {
+                    var f = document.createDocumentFragment();
+                    var labels = [], group, opts;
+
+                    function addOptions(obj) {
+                        var f = document.createDocumentFragment();
+                        var o;
+
+                        for (var i = 0, len = obj.text.length; i < len; i++) {
+                            o = document.createElement('option');
+                            o.appendChild(document.createTextNode(obj.text[i]));
+
+                            if (obj.value) {
+                                o.value = obj.value[i];
+                            }
+
+                            f.appendChild(o);
+                        }
+                        return f;
+                    }
+
+                    if (obj.text) {
+                        opts = addOptions(obj);
+                        f.appendChild(opts);
+                    } else {
+                        for (var prop in obj) {
+                            if (obj.hasOwnProperty(prop)) {
+                                labels.push(prop);
+                            }
+                        }
+
+                        for (var i = 0, len = labels.length; i < len; i++) {
+                            group = document.createElement('optgroup');
+                            group.label = labels[i];
+                            f.appendChild(group);
+                            opts = addOptions(obj[labels[i]]);
+                            group.appendChild(opts);
+                        }
+                    }
+                    sel.appendChild(f);
+                }
+
+                // anonymous function assigned to onchange event of controlling select list
+                document.forms['demoForm'].elements['category'].onchange = function (e) {
+                    // name of associated select list
+                    var relName = 'choices[]';
+
+                    // reference to associated select list 
+                    var relList = this.form.elements[relName];
+
+                    // get data from object literal based on selection in controlling select list (this.value)
+                    var obj = Select_List_Data[relName][this.value];
+
+                    // remove current option elements
+                    removeAllOptions(relList, true);
+
+                    // call function to add optgroup/option elements
+                    // pass reference to associated select list and data for new options
+                    appendDataToSelect(relList, obj);
+                };
+
+                // object literal holds data for optgroup/option elements
+                var Select_List_Data = {
+
+                    // name of associated select list
+                    'choices[]': {
+
+                        // names match option values in controlling select list
+                        js: {
+                            // optgroup label
+                            'Flemish Giant': {
+                                text: ['Snoopy', 'Coco Puff', 'Stella Polaris'],
+                                value: ['slider', 'scrollers', 'banner']
+                            },
+                            'Blauwe van Hamm': {
+                                text: ['Honeynut', 'Claude', 'Frieda'],
+                                value: ['scroll', 'tooltips', 'rotate']
+                            }
+                        },
+                        php: {
+                            // example without optgroups
+                            'French Lop': {
+                                text: ['Blancobun', 'Yasmine', 'Bux'],
+                                value: ['random', 'rotate', 'form']
+                            },
+                            'Alaskan': {
+                                text: ['Sunflower', 'Gus Gus', 'Flop'],
+                                value: ['random', 'rotate', 'form']
+                            }
+                        },
+                        tuts: {
+                            'Netherland Dwarf': {
+                                // example without values
+                                text: ['Wonky', 'Tiger', 'Gangnamjin']
+                            },
+
+                            'Polish Bunny': {
+                                text: ['Herbie', 'Mamacita', 'Britney']
+                            }
+                        }
+                    }
+
+                };
+
+                // populate associated select list when page loads
+                window.onload = function () {
+                    var form = document.forms['demoForm'];
+
+                    // reference to controlling select list
+                    var sel = form.elements['category'];
+                    sel.selectedIndex = 0;
+
+                    // name of associated select list
+                    var relName = 'choices[]';
+                    // reference to associated select list
+                    var rel = form.elements[relName];
+
+                    // get data for associated select list passing its name
+                    // and value of selected in controlling select list
+                    var data = Select_List_Data[relName][sel.value];
+
+                    // add options to associated select list
+                    appendDataToSelect(rel, data);
+                };
+
+            </script>
+        </div>
+        </p>
+    </div>
+
+    <div class="card text-center">
+        <div class="card-header">
+            &nbsp;
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Got Any Questions?</h5>
+            <p class="card-text">Are you also coconut crazy for bunnies, but all your friends and family are sick of
+                hearing you talk about them all the time?
+            </p>
+            <p> Guess what? We would love to hear your stories!</p>
+            <a href="#" class="btn btn-outline-success">Send me an e-mail!</a>
+        </div>
+        <div class="card-footer text-muted">
+            Copyright 2K20 - Cha-Lin
+        </div>
     </div>
     </div>
     </div>
+    </div>
+
 
 
 
