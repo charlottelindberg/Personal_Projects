@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e9cfce;
+  background-color: rgb(233, 207, 206);
+  padding-bottom: 300px;
+
+}
+
+/* .header, .main, .two-columns, .container, .intro, .three-columns {
+  border: 1px solid red;
+} */
+
+.container h1 {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: gilbert-color, sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.header p {
+  margin-left: 50px;
+  margin-top: 0;
+  font-family: dederon-serif-web,serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.container {
+  width: 80%;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.intro, .beginning {
+  padding: 15px;
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main {
+  display: flex;
+}
+
+.two-columns {
+  padding: 15px;
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* display: flex; 
+  flex: 0 0 50%; */
+}
+
+.two-columns h4 {
+  color: #FF6B00;
+}
+
+.beginning h4 {
+  color: #FF6B00;
+}
+
+.three-columns h4 {
+  color: #FF6B00;
+}
+
+.skills {
+  display: flex;
+}
+
+.three-columns {
+  padding: 15px;
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  flex: 0 0 33%;
+}
+
+/* .skills-three {
+  padding: 5px;
+} */
+
+#notebook {
+  background-image: url("notebook.png");
+  width: 20%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 90vh;
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+#keyboard {
+  height: 200px;
+  width: 50%;
+  background-size: cover;
+  background-position: top left;
+  position: sticky;
+  position: fixed;
+  bottom: 0;
+  background-image: url("keyboard.png");
+  z-index: -2;
+}
+
+@media screen and (max-width: 800px) {
+  #keyboard {
+    width: 100%;
+    height: 20%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #notebook {
+    width: 10%;
+    height: 50%;
+  }
+}
+
