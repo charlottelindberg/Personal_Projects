@@ -1,18 +1,14 @@
 body {
 border: 1px dotted red;
-/* display: flexbox;
-box-sizing: border-box; */
 padding: 1em;
 display: grid;
-/* place-items: center */
 }
 
 .grid {
     display: grid;
     margin: auto;
     grid-template-columns: 25vw;
-    grid-template-areas: "header header" "content content" "footer footer";
-    
+    grid-template-areas: "header header" "content content" "footer footer"; 
 }
 
 .top {
@@ -36,21 +32,14 @@ div.top>div>p {
 .span--header02 {
     display: flex;
     align-items: center;
-
 }
-
-/* .side {
-    grid-area: sidebar;
-    border: 2px solid peru;
-    padding: 1em;
-} */
 
 .main {
     grid-area: content;
     border: 2px solid palevioletred;
     padding: 1em;
     display: flex;
-    flex-direction: column;
+    /* overflow: hidden; */
 }
 
 .bottom {
@@ -59,9 +48,25 @@ div.top>div>p {
     padding: 1em;
 }
 
-div.main>p {
+div.main>div>p {
 border: 2px dotted hotpink;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    flex: 1 1 0%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    flex: 1 1 0%;
+}
+
+
 
 .span--main01 {
 font-size: 2rem;
@@ -81,11 +86,12 @@ color: deeppink;
 
 .span--main05 {
     font-weight: 700;
+    text-align: ;
 }
 
 div.bottom {
     display: flex;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 div.bottom>span {
@@ -93,7 +99,13 @@ div.bottom>span {
     flex: 1 1 0%;
     }
 
+
 .span--footer02 {
     margin-right: 5px;
     margin-left: 5px;
+    text-align: center;
+}
+
+.span--footer03 {
+    text-align: end;
 }
